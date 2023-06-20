@@ -1,7 +1,7 @@
 import { cookies } from 'next/headers';
 import { NextRequest, NextResponse } from 'next/server';
 
-import { addToCart, removeFromCart, updateCart } from 'lib/shopify';
+import { addToCart, removeFromCart, updateCart } from 'lib/sylius';
 import { isShopifyError } from 'lib/type-guards';
 
 function formatErrorMessage(err: Error): string {

@@ -10,8 +10,8 @@ import { Gallery } from 'components/product/gallery';
 import { VariantSelector } from 'components/product/variant-selector';
 import Prose from 'components/prose';
 import { HIDDEN_PRODUCT_TAG } from 'lib/constants';
-import { getProduct, getProductRecommendations } from 'lib/shopify';
-import { Image } from 'lib/shopify/types';
+import { getProduct, getProductRecommendations } from 'lib/sylius';
+import { Image } from 'lib/sylius/types';
 
 export const runtime = 'edge';
 

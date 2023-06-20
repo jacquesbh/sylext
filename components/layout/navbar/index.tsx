@@ -4,8 +4,8 @@ import { Suspense } from 'react';
 import Cart from 'components/cart';
 import CartIcon from 'components/icons/cart';
 import LogoIcon from 'components/icons/logo';
-import { getMenu } from 'lib/shopify';
-import { Menu } from 'lib/shopify/types';
+import { getMenu } from 'lib/sylius';
+import { Menu } from 'lib/sylius/types';
 import MobileMenu from './mobile-menu';
 import Search from './search';
 
